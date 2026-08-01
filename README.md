@@ -1,6 +1,6 @@
 # Bouncelang
 
-Bouncelang is an esoteric programming language where computation happens through **physical collisions between spheres bouncing inside a 3D box**. Instead of a call stack or an AST walk, the "interpreter" is a real-time physics simulation, built in [Zig](https://ziglang.org/) on top of [raylib.zig](https://github.com/Not-Nik/raylib-zig): values and operations are spheres with position, velocity, and radius, and a program executes as those spheres collide, merge, and reflect off the walls of a bounded cube.
+Bouncelang is an esoteric programming language where computation happens through **physical collisions between spheres bouncing inside a 3D box**. Instead of a call stack or an AST walk, the "interpreter" is a real-time physics simulation, built in [Zig](https://ziglang.org/) on top of [raylib.zig](https://github.com/ryupold/raylib.zig): values and operations are spheres with position, velocity, and radius, and a program executes as those spheres collide, merge, and reflect off the walls of a bounded cube.
 
 ## Concept
 
